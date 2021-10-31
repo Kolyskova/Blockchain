@@ -1,0 +1,83 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "attacked",
+			"inputs": [
+				{"name":"attackedPower","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "attack",
+			"inputs": [
+				{"name":"purpose","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "dead",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "timestamp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"timestamp","type":"uint32"}
+			]
+		},
+		{
+			"name": "health",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"health","type":"uint256"}
+			]
+		},
+		{
+			"name": "protection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		},
+		{
+			"name": "power",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"power","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"timestamp","type":"uint32"},
+		{"name":"health","type":"uint256"},
+		{"name":"protection","type":"uint256"},
+		{"name":"attackingAddress","type":"address"},
+		{"name":"power","type":"uint256"}
+	]
+}
